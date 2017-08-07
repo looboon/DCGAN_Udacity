@@ -1,5 +1,3 @@
-# DCGAN_Udacity
+# Udacity Nanodegree Assignments
 
-Deep Convolutional Generative Adverserial Network Project 5 for Udacity Nanodegree.
-
-Implemented on Tensorflow and trained on Floydhub.
+Repo for assignments 1-5 done for Udacity Deep Learning Nanodegree.
