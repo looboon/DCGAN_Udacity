@@ -7,7 +7,7 @@ Some changes were
 - One sided label smoothing for d_loss 
 
 Things to improve: 
-- Use placeholder for keep_prob instead. See this [link](https://stackoverflow.com/questions/44971349/how-to-turn-off-dropout-for-testing-in-tensorflow).
+- Use placeholder for keep_prob instead. See this [link](https://stackoverflow.com/questions/44971349/how-to-turn-off-dropout-for-testing-in-tensorflow). This is important as during inference we would set the keep_prob=1 to retain all filters for inference.
 - Implement Xavier Initialization. [tf.contrib.layers.conv2d](https://www.tensorflow.org/api_docs/python/tf/contrib/layers/conv2d) has these input arguments:
 ```
 conv2d(
